@@ -95,5 +95,16 @@ Each track has the following
   ## Running
   Project was built with netbeans and hence, using netbeans would be the easiest way to run this project.
   
-    1. Import project into netbeans and then build and run.
-    2 
+    ### Running with Netbeans
+      1. Import project into netbeans and then build and run.
+      2. Supply path to input file when prompted
+      3. Follow menu prompts to view events and schedule
+      
+    ### Running from command line
+      1. From the terminal navigate into the project folder
+      2. Change directory into the src folder
+      3. Build the project using: `javac -cp . javac -cp . main/*.java scheduler/*.java util/*.java`
+      4. Run the project using: `java -cp . main.Main`
+      
+  **NB** Theres a `data.txt` in the root folder containing sample data.
+
