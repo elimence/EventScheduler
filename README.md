@@ -28,7 +28,7 @@ Each track has the following
     * Duration is of the form <Number>mins
 
 
-  ## Design
+## Design
   Here's the structure of the project
 
       .
@@ -81,7 +81,7 @@ Each track has the following
   as opposed to a solution that searches exhuastively for the most optimal solution.
   This chosen approach is the simplest that meets the contraints of the problem.
   
-  ### How it works
+### How it works
     1. An array of events is created and then sorted in descending order of durations
     2. For the afternoon session, time period `1-4 PM` is filled by iterating through the event list and adding till
     theres no event that can fit in the remaining slot.
