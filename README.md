@@ -91,16 +91,15 @@ Each track has the following
     6. Finally all remaining events are passed over to be scheduled in another track
 
   
-  
-  ** Running **
+### Running
   Project was built with netbeans and hence, using netbeans would be the easiest way to run this project.
   
-    ** Running with Netbeans **
+###### Running with Netbeans
       1. Import project into netbeans and then build and run.
       2. Supply path to input file when prompted
       3. Follow menu prompts to view events and schedule
       
-    ** Running from command line **
+###### Running from command line
       1. From the terminal navigate into the project folder
       2. Change directory into the src folder
       3. Build the project using: `javac -cp . javac -cp . main/*.java scheduler/*.java util/*.java`
