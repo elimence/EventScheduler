@@ -13,19 +13,19 @@ Each track has the following
 
 ## Assumptions/Constraints
   1. Morning sessions
-    a. Starts at `9 00 PM`
-    b. Must end by `12 00 PM`
-    c. Can end before `12 00 PM`
+    * Starts at `9 00 PM`
+    * Must end by `12 00 PM`
+    * Can end before `12 00 PM`
     
   2. Afternoon sessions
-    a. Starts at `1 00 PM`
-    b. Must end earliest by `4 00 PM`
-    c. Must end latest by `5 00 PM`
+    * Starts at `1 00 PM`
+    * Must end earliest by `4 00 PM`
+    * Must end latest by `5 00 PM`
     
   3. Input Data
-    a. Each line is in the format: <Event_Title Duration>
-    b. Title is a string without numbers
-    c. Duration is of the form <Number>mins
+    * Each line is in the format: <Event_Title Duration>
+    * Title is a string without numbers
+    * Duration is of the form <Number>mins
 
 
   ## Design
@@ -92,15 +92,15 @@ Each track has the following
 
   
   
-  ## Running
+  ** Running **
   Project was built with netbeans and hence, using netbeans would be the easiest way to run this project.
   
-    ### Running with Netbeans
+    ** Running with Netbeans **
       1. Import project into netbeans and then build and run.
       2. Supply path to input file when prompted
       3. Follow menu prompts to view events and schedule
       
-    ### Running from command line
+    ** Running from command line **
       1. From the terminal navigate into the project folder
       2. Change directory into the src folder
       3. Build the project using: `javac -cp . javac -cp . main/*.java scheduler/*.java util/*.java`
