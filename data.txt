@@ -1,0 +1,18 @@
+A Brief History of PostgreSQL 60min
+The SQL Language 45min
+Functions and Operators 30min
+Performance Tips 45min
+Server Setup and Operation 45min
+Routine Database Maintenance High Availability, Load Balancing, and Replication 60min
+Reliability and the Write-Ahead Log 45min
+ECPG - Embedded SQL in C 30min
+Regression Tests 30min
+Extending SQL 45min
+PL/Tcl - Tcl Procedural Language 60min
+Server Programming Interface 60min
+PostgreSQL Client Applications 45min
+Writing A Procedural Language Handler 30min
+Database Physical Storage 30min
+BKI Backend Interface 60min
+SQL Conformance 30min
+User Interface 30min

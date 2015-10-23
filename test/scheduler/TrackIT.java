@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package util;
+package scheduler;
 
-import java.io.IOException;
+import java.util.List;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -17,9 +17,9 @@ import static org.junit.Assert.*;
  *
  * @author sam
  */
-public class UtilsIT {
+public class TrackIT {
     
-    public UtilsIT() {
+    public TrackIT() {
     }
     
     @BeforeClass
@@ -39,44 +39,29 @@ public class UtilsIT {
     }
 
     /**
-     * Test of readFile method, of class Utils.
-     * @throws java.io.IOException
+     * Test of fillTrack method, of class Track.
      */
     @Test
-    public void testReadFile() throws IOException {
-        System.out.println("readFile");
-        String fileName = "";
-        String expResult = "";
-        String result = Utils.readFile(fileName);
+    public void testFillTrack() {
+        System.out.println("fillTrack");
+        List<Event> eventList = null;
+        Track instance = null;
+        List<Event> expResult = null;
+        List<Event> result = instance.fillTrack(eventList);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
 
     /**
-     * Test of writeFile method, of class Utils.
-     * @throws java.lang.Exception
+     * Test of toString method, of class Track.
      */
     @Test
-    public void testWriteFile() throws Exception {
-        System.out.println("writeFile");
-        String fileName = "";
-        String data = "";
-        Utils.writeFile(fileName, data);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of join method, of class Utils.
-     */
-    @Test
-    public void testJoin() {
-        System.out.println("join");
-        Object[] items = null;
-        String seperator = "";
+    public void testToString() {
+        System.out.println("toString");
+        Track instance = null;
         String expResult = "";
-        String result = Utils.join(items, seperator);
+        String result = instance.toString();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
