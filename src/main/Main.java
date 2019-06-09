@@ -66,7 +66,6 @@ public class Main {
             p("exception caugth " + ex.toString());
         }
     }
-    // adding a small harmless comment from Chris Dare
     
     /**
      * Proxy functions to print so I don't have to type too much :)
